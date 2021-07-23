@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NCDEXandMCXapi.iml" filepath="$PROJECT_DIR$/.idea/modules/NCDEXandMCXapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LamdaTrack/NCDEXandMCXapi.LamdaTrack.iml" filepath="$PROJECT_DIR$/.idea/modules/LamdaTrack/NCDEXandMCXapi.LamdaTrack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NCDEXandMCXapi.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NCDEXandMCXapi.app.iml" />
+    </modules>
+  </component>
+</project>
