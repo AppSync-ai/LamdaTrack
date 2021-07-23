@@ -8,9 +8,7 @@ import android.util.Log;
 
 
 import com.mt.lamdatrack.R;
-import com.mt.lamdatrack.Rate.Jsoup;
 import com.mt.lamdatrack.Rate.RatesReq;
-import com.mt.lamdatrack.Rate.nodes.Document;
 import com.mt.lamdatrack.Rate.select.Elements;
 
 import java.util.ArrayList;
@@ -19,41 +17,38 @@ public class Rates {
 
     public static void getAllRates(Context context) {
 
-        contextThis = context;
-        NodeEraser.Lamda(context);
+        KKLKLKLKLKLKLKLKLKLAD = context;
+        KPKKKKLKLKLAAAADWEDWED.KOKPOKOKLKL(KKLKLKLKLKLKLKLKLKLAD);
 
     }
 
-    static class Rater extends AsyncTask<String, String, String> {
+    static class OPOOPOPOOJHFGVGCDX extends AsyncTask<String, String, String> {
 
 //    load states all with their links href
 
         @Override
         protected String doInBackground(String... params) {
-            final Document pageDocument;
+            Document JNOSDAJNSADJNSDAJNKSDA = null;
             try {
-                mcxList.clear();
-                ncdexList.clear();
+                KKjbjj.jkndosajskdno(KJLSDAKLSDKJLKDJLSKDJASNKDJKJN, KOJKOJKOJKJOKLJKLJKLJ);
 
-                pageDocument = Jsoup.connect(contextThis.getResources().getString(R.string.mint))
-                        .timeout(15000)
-                        .get();
+                JNOSDAJNSADJNSDAJNKSDA = UHUnbnnbsd.sdfdssd(JNOSDAJNSADJNSDAJNKSDA, KKLKLKLKLKLKLKLKLKLAD);
 
-                nnnnndashjbhj(pageDocument);
-                mmmmmsdkjfjkdfsjdsdsj(pageDocument);
+                nnnnndashjbhj(JNOSDAJNSADJNSDAJNKSDA);
+                mmmmmsdkjfjkdfsjdsdsj(JNOSDAJNSADJNSDAJNKSDA);
 
 
                 try {
-                    NCDEXrates nn = (NCDEXrates) contextThis;
-                    nn.NcdexRates(ncdexList);
-                    nn.McxRates(mcxList);
+                    NCDEXrates nn = (NCDEXrates) KKLKLKLKLKLKLKLKLKLAD;
+                    nn.NcdexRates(KJLSDAKLSDKJLKDJLSKDJASNKDJKJN);
+                    nn.McxRates(KOJKOJKOJKJOKLJKLJKLJ);
                 } catch (Exception v) {
                     Log.wtf("Hulk-65", v.getMessage());
                 }
 
 
             } catch (Exception v) {
-                NCDEXrates ff = (NCDEXrates) contextThis;
+                NCDEXrates ff = (NCDEXrates) KKLKLKLKLKLKLKLKLKLAD;
                 ff.FailedToLoad(v.getMessage());
 
             }
@@ -61,15 +56,15 @@ public class Rates {
             return null;
         }
 
-        private void nnnnndashjbhj(Document pageDocument) {
-            Elements Ncdexrates = pageDocument.getElementById(contextThis.getResources().getString(R.string.jknljnjnk)).getElementsByClass("tableDataBox");
+        private void nnnnndashjbhj(Document kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb) {
+            Elements uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui = kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb.getElementById(KKLKLKLKLKLKLKLKLKLAD.getResources().getString(R.string.jknljnjnk)).getElementsByClass("tableDataBox");
             int i = 0;
             try {
                 do {
-                    ncdexList.add(new RatesReq("" + Ncdexrates.select("ol").select("li").select("a").get(i).text(),
-                            "" + Ncdexrates.select("ol").select("li").select("strong").get(i).text(),
-                            "" + Ncdexrates.select("ol").select("li").next().get(i).ownText(),
-                            "" + Ncdexrates.select("ol").select("li").select("span").get(i).text()
+                    KJLSDAKLSDKJLKDJLSKDJASNKDJKJN.add(new RatesReq("" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.select("ol").select("li").select("a").get(i).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.select("ol").select("li").select("strong").get(i).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.select("ol").select("li").next().get(i).ownText(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.select("ol").select("li").select("span").get(i).text()
                     ));
                     i++;
                 }
@@ -82,14 +77,14 @@ public class Rates {
         }
 
         private void mmmmmsdkjfjkdfsjdsdsj(Document pageDocument) {
-            Elements Ncdexrates = pageDocument.getElementById(contextThis.getResources().getString(R.string.mmmadjja)).getElementsByClass("tableDataBox");
+            Elements UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG = pageDocument.getElementById(KKLKLKLKLKLKLKLKLKLAD.getResources().getString(R.string.mmmadjja)).getElementsByClass(KKLKLKLKLKLKLKLKLKLAD.getResources().getString(R.string.HJBHJBHJBJHBHJBHJBHJS));
             int i = 0;
             try {
                 do {
-                    mcxList.add(new RatesReq("" + Ncdexrates.select("ol").select("li").select("a").get(i).text(),
-                            "" + Ncdexrates.select("ol").select("li").select("strong").get(i).text(),
-                            "" + Ncdexrates.select("ol").select("li").next().get(i).ownText(),
-                            "" + Ncdexrates.select("ol").select("li").select("span").get(i).text()
+                    KOJKOJKOJKJOKLJKLJKLJ.add(new RatesReq("" + UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG.select("ol").select("li").select("a").get(i).text(),
+                            "" + UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG.select("ol").select("li").select("strong").get(i).text(),
+                            "" + UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG.select("ol").select("li").next().get(i).ownText(),
+                            "" + UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG.select("ol").select("li").select("span").get(i).text()
                     ));
                     i++;
                 }
@@ -106,7 +101,7 @@ public class Rates {
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
-            ((Activity) contextThis).runOnUiThread(new Runnable() {
+            ((Activity) KKLKLKLKLKLKLKLKLKLAD).runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
 
@@ -118,9 +113,9 @@ public class Rates {
 
     }
 
-    static Context contextThis = null;
-    static ArrayList<RatesReq> ncdexList = new ArrayList<>();
-    static ArrayList<RatesReq> mcxList = new ArrayList<>();
+    static Context KKLKLKLKLKLKLKLKLKLAD = null;
+    static ArrayList<RatesReq> KJLSDAKLSDKJLKDJLSKDJASNKDJKJN = new ArrayList<>();
+    static ArrayList<RatesReq> KOJKOJKOJKJOKLJKLJKLJ = new ArrayList<>();
 
     public interface NCDEXrates {
         public void NcdexRates(ArrayList<RatesReq> list);

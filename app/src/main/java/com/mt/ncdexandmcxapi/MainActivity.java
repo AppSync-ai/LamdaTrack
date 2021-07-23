@@ -3,7 +3,6 @@ package com.mt.ncdexandmcxapi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.provider.Telephony;
 import android.util.Log;
 import android.widget.Toast;
 

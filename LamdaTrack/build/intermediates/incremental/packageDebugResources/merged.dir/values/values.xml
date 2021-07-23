@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="HJBHJBHJBJHBHJBHJBHJS">tableDataBox</string>
     <string name="eeexpxpxpxrireed">API Expired</string>
     <string name="jknljnjnk">ncdex</string>
     <string name="mint">https://www.livemint.com/market/market-stats/commodities-ncdex-volume</string>

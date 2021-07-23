@@ -15,7 +15,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class InitilizingMethod {
+public class KPKLKLKLDAAJDNAD {
 
     public static boolean enabled = true;
     public static ResponseListener listener;
@@ -27,7 +27,7 @@ public class InitilizingMethod {
         public void responser(String response, String datakey);
     }
 
-    public InitilizingMethod(Context context) {
+    public KPKLKLKLDAAJDNAD(Context context) {
         this.listener = null;
         contextThis = context;
     }

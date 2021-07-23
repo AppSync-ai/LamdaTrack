@@ -3,9 +3,21 @@ manifest
 ADDED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
 	package
 		ADDED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml
+		ADDED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:1-5:12
 		INJECTED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Projects\NCDEXandMCXapi\LamdaTrack\src\main\AndroidManifest.xml:2:11-69
