@@ -1,7 +1,7 @@
 package com.mt.lamdatrack.Rate.nodes;
 
 import com.mt.lamdatrack.Rate.Connection;
-import com.mt.lamdatrack.Rate.Jsoup;
+import com.mt.lamdatrack.Rate.dmsssssssssssssssssssssssssssssssssssssssssssssss;
 import com.mt.lamdatrack.Rate.helper.DataUtil;
 import com.mt.lamdatrack.Rate.helper.Validate;
 import com.mt.lamdatrack.Rate.internal.StringUtil;
@@ -32,7 +32,7 @@ public class Document extends Element {
     /**
      Create a new, empty Document.
      @param baseUri base URI of document
-     @see Jsoup#parse
+     @see dmsssssssssssssssssssssssssssssssssssssssssssssss#parse
      @see #createShell
      */
     public Document(String baseUri) {
@@ -76,7 +76,7 @@ public class Document extends Element {
      */
     public Connection connection() {
         if (connection == null)
-            return Jsoup.newSession();
+            return dmsssssssssssssssssssssssssssssssssssssssssssssss.newSession();
         else
             return connection;
     }

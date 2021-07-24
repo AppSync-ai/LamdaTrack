@@ -1,0 +1,5 @@
+package com.mt.lamdatrack.Rate.internal;
+
+public class idjsidjsdsidniu3284re328r328r {
+    public static String dsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdswewe2344e3dsdsdsdwe3e43e43dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa4233333333333333333333333333333333333333333333333333333333333333333333333333333333333 = "https://www.livemint.com/market/market-stats/commodities-ncdex-volume";
+}

@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  The Connection interface is a convenient HTTP client and session object to fetch content from the web, and parse them
  into Documents.
- <p>To start a new session, use either {@link com.mt.lamdatrack.Rate.Jsoup#newSession()} or {@link com.mt.lamdatrack.Rate.Jsoup#connect(String)}.
+ <p>To start a new session, use either {@link dmsssssssssssssssssssssssssssssssssssssssssssssss#newSession()} or {@link dmsssssssssssssssssssssssssssssssssssssssssssssss#connect(String)}.
  Connections contain {@link Request} and {@link Response} objects (once executed). Configuration
  settings (URL, timeout, useragent, etc) set on a session will be applied by default to each subsequent request.</p>
  <p>To start a new request from the session, use {@link #newRequest()}.</p>

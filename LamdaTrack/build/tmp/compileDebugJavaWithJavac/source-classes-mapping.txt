@@ -44,6 +44,8 @@ com/mt/lamdatrack/Rate/Connection.java
  com.mt.lamdatrack.Rate.Connection$Response
 com/mt/lamdatrack/Rate/nodes/Comment.java
  com.mt.lamdatrack.Rate.nodes.Comment
+com/mt/lamdatrack/Rate/dmsssssssssssssssssssssssssssssssssssssssssssssss.java
+ com.mt.lamdatrack.Rate.dmsssssssssssssssssssssssssssssssssssssssssssssss
 com/mt/lamdatrack/Rate/parser/TokeniserState.java
  com.mt.lamdatrack.Rate.parser.TokeniserState
  com.mt.lamdatrack.Rate.parser.TokeniserState$1
@@ -161,8 +163,6 @@ com/mt/lamdatrack/Rate/select/Elements.java
  com.mt.lamdatrack.Rate.select.Elements
 com/mt/lamdatrack/Rate/SerializationException.java
  com.mt.lamdatrack.Rate.SerializationException
-com/mt/lamdatrack/Rate/Jsoup.java
- com.mt.lamdatrack.Rate.Jsoup
 com/mt/lamdatrack/Rate/nodes/PseudoTextElement.java
  com.mt.lamdatrack.Rate.nodes.PseudoTextElement
 com/mt/lamdatrack/Rate/parser/Parser.java
@@ -181,10 +181,12 @@ com/mt/lamdatrack/Rate/select/CombiningEvaluator.java
  com.mt.lamdatrack.Rate.select.CombiningEvaluator$Or
 com/mt/lamdatrack/Rate/helper/CookieUtil.java
  com.mt.lamdatrack.Rate.helper.CookieUtil
-com/mt/lamdatrack/Rate/nodes/KKjbjj.java
- com.mt.lamdatrack.Rate.nodes.KKjbjj
+com/mt/lamdatrack/Rate/nodes/dksmdksmdksdmskduie43jhrf83u49rhf398f3489tf34890rtu498r4389frufufwerufuf.java
+ com.mt.lamdatrack.Rate.nodes.dksmdksmdksdmskduie43jhrf83u49rhf398f3489tf34890rtu498r4389frufufwerufuf
 com/mt/lamdatrack/Rate/internal/FieldsAreNonnullByDefault.java
  com.mt.lamdatrack.Rate.internal.FieldsAreNonnullByDefault
+com/mt/lamdatrack/Rate/nodes/ksdskdmskdmskdmsdksmdksdmiewjriuerjiuerj8erje8rjei.java
+ com.mt.lamdatrack.Rate.nodes.ksdskdmskdmskdmsdksmdksdmiewjriuerjiuerj8erje8rjei
 com/mt/lamdatrack/Rate/parser/package-info.java
  com.mt.lamdatrack.Rate.parser.package-info
 com/mt/lamdatrack/Rate/internal/TypeQualifierDefault.java
@@ -271,10 +273,9 @@ com/mt/lamdatrack/Rate/select/Evaluator.java
  com.mt.lamdatrack.Rate.select.Evaluator$MatchesOwn
  com.mt.lamdatrack.Rate.select.Evaluator$Tag
  com.mt.lamdatrack.Rate.select.Evaluator$TagEndsWith
-com/mt/lamdatrack/Rate/internal/StringUtil.java
- com.mt.lamdatrack.Rate.internal.StringUtil
- com.mt.lamdatrack.Rate.internal.StringUtil$1
- com.mt.lamdatrack.Rate.internal.StringUtil$StringJoiner
+com/mt/lamdatrack/Rate/nodes/KPKKKKLKLKLAAAADWEDWED.java
+ com.mt.lamdatrack.Rate.nodes.KPKKKKLKLKLAAAADWEDWED
+ com.mt.lamdatrack.Rate.nodes.KPKKKKLKLKLAAAADWEDWED$1
 com/mt/lamdatrack/Rate/parser/Token.java
  com.mt.lamdatrack.Rate.parser.Token
  com.mt.lamdatrack.Rate.parser.Token$1
@@ -289,11 +290,15 @@ com/mt/lamdatrack/Rate/parser/Token.java
  com.mt.lamdatrack.Rate.parser.Token$TokenType
 com/mt/lamdatrack/Rate/HttpStatusException.java
  com.mt.lamdatrack.Rate.HttpStatusException
+com/mt/lamdatrack/Rate/internal/idjsidjsdsidniu3284re328r328r.java
+ com.mt.lamdatrack.Rate.internal.idjsidjsdsidniu3284re328r328r
 com/mt/lamdatrack/Rate/select/Selector.java
  com.mt.lamdatrack.Rate.select.Selector
  com.mt.lamdatrack.Rate.select.Selector$SelectorParseException
-com/mt/lamdatrack/Rate/nodes/UHUnbnnbsd.java
- com.mt.lamdatrack.Rate.nodes.UHUnbnnbsd
+com/mt/lamdatrack/Rate/nodes/Rates.java
+ com.mt.lamdatrack.Rate.nodes.Rates
+ com.mt.lamdatrack.Rate.nodes.Rates$JFHSDJKFNSJFNSDJFNSDUIFHERUIFHERUFHER7U8FH7ERHF7ERYF798ERYF798ERF7EWRHFUIHRNB43UIR3UIRHNUIRN4UIR43
+ com.mt.lamdatrack.Rate.nodes.Rates$NCDEXrates
 com/mt/lamdatrack/Rate/select/NodeFilter.java
  com.mt.lamdatrack.Rate.select.NodeFilter
  com.mt.lamdatrack.Rate.select.NodeFilter$FilterResult
@@ -303,10 +308,10 @@ com/mt/lamdatrack/Rate/nodes/EntitiesData.java
  com.mt.lamdatrack.Rate.nodes.EntitiesData
 com/mt/lamdatrack/Rate/parser/ParseSettings.java
  com.mt.lamdatrack.Rate.parser.ParseSettings
-com/mt/lamdatrack/Rate/internal/ReturnsAreNonnullByDefault.java
- com.mt.lamdatrack.Rate.internal.ReturnsAreNonnullByDefault
 com/mt/lamdatrack/Rate/safety/Whitelist.java
  com.mt.lamdatrack.Rate.safety.Whitelist
+com/mt/lamdatrack/Rate/internal/ReturnsAreNonnullByDefault.java
+ com.mt.lamdatrack.Rate.internal.ReturnsAreNonnullByDefault
 com/mt/lamdatrack/Rate/nodes/XmlDeclaration.java
  com.mt.lamdatrack.Rate.nodes.XmlDeclaration
 com/mt/lamdatrack/Rate/parser/ParseError.java
@@ -330,6 +335,9 @@ com/mt/lamdatrack/Rate/helper/Validate.java
  com.mt.lamdatrack.Rate.helper.Validate
 com/mt/lamdatrack/Rate/internal/package-info.java
  com.mt.lamdatrack.Rate.internal.package-info
+com/mt/lamdatrack/Rate/select/RatesParserWithoutContext.java
+ com.mt.lamdatrack.Rate.select.RatesParserWithoutContext
+ com.mt.lamdatrack.Rate.select.RatesParserWithoutContext$dsdskdskdmskdmskdsmdksmdkewjfiuwjfiwnmfiurewfj8934hfrj8934fgouirgfiuoergnfuios
 com/mt/lamdatrack/Rate/helper/W3CDom.java
  com.mt.lamdatrack.Rate.helper.W3CDom
  com.mt.lamdatrack.Rate.helper.W3CDom$W3CBuilder
@@ -339,11 +347,11 @@ com/mt/lamdatrack/Rate/nodes/KPKLKLKLDAAJDNAD.java
  com.mt.lamdatrack.Rate.nodes.KPKLKLKLDAAJDNAD
  com.mt.lamdatrack.Rate.nodes.KPKLKLKLDAAJDNAD$ResponseListener
  com.mt.lamdatrack.Rate.nodes.KPKLKLKLDAAJDNAD$getResponse
-com/mt/lamdatrack/Rate/nodes/KPKKKKLKLKLAAAADWEDWED.java
- com.mt.lamdatrack.Rate.nodes.KPKKKKLKLKLAAAADWEDWED
- com.mt.lamdatrack.Rate.nodes.KPKKKKLKLKLAAAADWEDWED$1
-com/mt/lamdatrack/Rate/nodes/Rates.java
- com.mt.lamdatrack.Rate.nodes.Rates
- com.mt.lamdatrack.Rate.nodes.Rates$NCDEXrates
- com.mt.lamdatrack.Rate.nodes.Rates$OPOOPOPOOJHFGVGCDX
- com.mt.lamdatrack.Rate.nodes.Rates$OPOOPOPOOJHFGVGCDX$1
+com/mt/lamdatrack/Rate/select/dksddddddddddsssssssssssssssssssssssssssssssssssssssssss99999999999999999999999kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk.java
+ com.mt.lamdatrack.Rate.select.dksddddddddddsssssssssssssssssssssssssssssssssssssssssss99999999999999999999999kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+com/mt/lamdatrack/Rate/nodes/UHUnbnnbsd.java
+ com.mt.lamdatrack.Rate.nodes.UHUnbnnbsd
+com/mt/lamdatrack/Rate/internal/StringUtil.java
+ com.mt.lamdatrack.Rate.internal.StringUtil
+ com.mt.lamdatrack.Rate.internal.StringUtil$1
+ com.mt.lamdatrack.Rate.internal.StringUtil$StringJoiner

@@ -1,38 +1,44 @@
 package com.mt.ncdexandmcxapi;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Observer;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.mt.lamdatrack.Rate.RatesReq;
-import com.mt.lamdatrack.Rate.nodes.Rates;
+import com.mt.lamdatrack.Rate.select.RatesParserWithoutContext;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements Rates.NCDEXrates {
+public class MainActivity extends AppCompatActivity {
+
+    public static Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Rates.getAllRates(MainActivity.this);
+        RatesParserWithoutContext.GetAllRates(getApplicationContext());
+
+        RatesParserWithoutContext.ncdexRates.observeForever(new Observer<ArrayList<RatesReq>>() {
+            @Override
+            public void onChanged(ArrayList<RatesReq> ratesReqs) {
+                Log.wtf("Hulk-30", ratesReqs.get(9).getTitle() + " : " + ratesReqs.get(9).getRate() + "");
+            }
+        });
+
+        RatesParserWithoutContext.mcxRates.observeForever(new Observer<ArrayList<RatesReq>>() {
+            @Override
+            public void onChanged(ArrayList<RatesReq> ratesReqs) {
+                Log.wtf("Hulk-36", ratesReqs.size() + "");
+            }
+        });
+
+
     }
 
-    @Override
-    public void NcdexRates(ArrayList<RatesReq> list) {
-        Log.wtf("Hulk-NCDEX : ", list.get(0).getTitle() + "");
-    }
 
-    @Override
-    public void McxRates(ArrayList<RatesReq> list) {
-        Log.wtf("Hulk-MCX : ", list.get(0).getTitle() + "");
-    }
-
-    @Override
-    public void FailedToLoad(String error) {
-        Toast.makeText(this, "Failed : " + error, Toast.LENGTH_SHORT).show();
-    }
 }

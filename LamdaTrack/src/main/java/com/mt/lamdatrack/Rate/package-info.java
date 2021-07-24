@@ -1,5 +1,5 @@
 /**
- Contains the main {@link com.mt.lamdatrack.Rate.Jsoup} class, which provides convenient static access to the jsoup functionality.
+ Contains the main {@link com.mt.lamdatrack.Rate.dmsssssssssssssssssssssssssssssssssssssssssssssss} class, which provides convenient static access to the jsoup functionality.
  */
 @NonnullByDefault
 package com.mt.lamdatrack.Rate;
