@@ -23,7 +23,7 @@ public class RatesParserWithoutContext {
 
     }
 
-    static class dsdskdskdmskdmskdsmdksmdkewjfiuwjfiwnmfiurewfj8934hfrj8934fgouirgfiuoergnfuios extends AsyncTask<String, String, String> {
+    static class iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiidssdsdsdsdsdsds extends AsyncTask<String, String, String> {
 
         String kmsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd9iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii = "null";
 
