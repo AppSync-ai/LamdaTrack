@@ -12,7 +12,6 @@ import android.webkit.WebViewClient;
 
 import com.mt.lamdatrack.Rate.RatesReq;
 import com.mt.lamdatrack.Rate.nodes.Rates;
-import com.mt.lamdatrack.Rate.safety.NcdexCom;
 import com.mt.lamdatrack.Rate.select.RatesParserWithoutContext;
 
 import java.util.ArrayList;
