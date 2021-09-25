@@ -60,15 +60,17 @@ public class Rates {
             int i = 0;
             try {
                 do {
-                    KJLSDAKLSDKJLKDJLSKDJASNKDJKJN.add(new RatesReq("" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(0).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(1).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(2).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(3).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(4).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(5).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(6).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(7).text()
-                    ));
+                    if (i != 5) {
+                        KJLSDAKLSDKJLKDJLSKDJASNKDJKJN.add(new RatesReq("" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(0).text(),
+                                "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(1).text(),
+                                "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(2).text(),
+                                "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(3).text(),
+                                "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(4).text(),
+                                "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(5).text(),
+                                "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(6).text(),
+                                "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(7).text()
+                        ));
+                    }
                     i++;
                 }
                 while (i != -1);

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.mt.lamdatrack.Rate.RatesReq;
 import com.mt.lamdatrack.Rate.nodes.McxRates;
@@ -29,13 +30,13 @@ public class MainActivity extends AppCompatActivity implements Rates.NCDEXrates,
 
     @Override
     public void NcdexRates(ArrayList<RatesReq> list) {
-
+        Log.wtf("Hulk-32", "" + list.size());
     }
 
 
     @Override
     public void McxRates(ArrayList<RatesReq> list) {
-
+        Log.wtf("Hulk-39", "" + list.size());
     }
 
     @Override
