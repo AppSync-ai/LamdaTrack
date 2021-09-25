@@ -1,13 +1,17 @@
 package com.mt.lamdatrack.Rate;
 
 public class RatesReq {
-    String title, date, rate, change;
+    String title, last, change, change_percent, close, high, low, date;
 
-    public RatesReq(String title, String date, String rate, String change) {
+    public RatesReq(String title, String last, String change, String change_percent, String close, String high, String low, String date) {
         this.title = title;
-        this.date = date;
-        this.rate = rate;
+        this.last = last;
         this.change = change;
+        this.change_percent = change_percent;
+        this.close = close;
+        this.high = high;
+        this.low = low;
+        this.date = date;
     }
 
     public String getTitle() {
@@ -18,20 +22,12 @@ public class RatesReq {
         this.title = title;
     }
 
-    public String getDate() {
-        return date;
+    public String getLast() {
+        return last;
     }
 
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public String getRate() {
-        return rate;
-    }
-
-    public void setRate(String rate) {
-        this.rate = rate;
+    public void setLast(String last) {
+        this.last = last;
     }
 
     public String getChange() {
@@ -40,5 +36,45 @@ public class RatesReq {
 
     public void setChange(String change) {
         this.change = change;
+    }
+
+    public String getChange_percent() {
+        return change_percent;
+    }
+
+    public void setChange_percent(String change_percent) {
+        this.change_percent = change_percent;
+    }
+
+    public String getClose() {
+        return close;
+    }
+
+    public void setClose(String close) {
+        this.close = close;
+    }
+
+    public String getHigh() {
+        return high;
+    }
+
+    public void setHigh(String high) {
+        this.high = high;
+    }
+
+    public String getLow() {
+        return low;
+    }
+
+    public void setLow(String low) {
+        this.low = low;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

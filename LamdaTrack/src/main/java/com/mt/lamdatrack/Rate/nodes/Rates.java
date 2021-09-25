@@ -12,6 +12,9 @@ import com.mt.lamdatrack.Rate.select.Elements;
 
 import java.util.ArrayList;
 
+import static android.util.Log.*;
+import static android.util.Log.wtf;
+
 public class Rates {
 
     public static void getAllRates(Context context) {
@@ -29,19 +32,17 @@ public class Rates {
         protected String doInBackground(String... params) {
             Document JNOSDAJNSADJNSDAJNKSDA = null;
             try {
-                dksmdksmdksdmskduie43jhrf83u49rhf398f3489tf34890rtu498r4389frufufwerufuf.jkndosajskdno(KJLSDAKLSDKJLKDJLSKDJASNKDJKJN, KOJKOJKOJKJOKLJKLJKLJ);
+                dksmdksmdksdmskduie43jhrf83u49rhf398f3489tf34890rtu498r4389frufufwerufuf.jkndosajskdno(KJLSDAKLSDKJLKDJLSKDJASNKDJKJN);
 
                 JNOSDAJNSADJNSDAJNKSDA = UHUnbnnbsd.sdfdssd(JNOSDAJNSADJNSDAJNKSDA, JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98);
 
                 nnnnndashjbhj(JNOSDAJNSADJNSDAJNKSDA);
-                mmmmmsdkjfjkdfsjdsdsj(JNOSDAJNSADJNSDAJNKSDA);
 
                 try {
                     NCDEXrates KSDDDDDDDDDDDFNU43UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS = (NCDEXrates) JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98;
                     KSDDDDDDDDDDDFNU43UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.NcdexRates(KJLSDAKLSDKJLKDJLSKDJASNKDJKJN);
-                    KSDDDDDDDDDDDFNU43UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.McxRates(KOJKOJKOJKJOKLJKLJKLJ);
                 } catch (Exception LDSADMDDKSALDLADKASLDASKLDKDOKDOIEIOIEMMVVMCKVMCKXVMKVMCKVMCKVMKCVCKVCKVMCKVMCVKCMVKCMVKVMKCMVKMFKMDKFMDKFMEDKRMEKRE) {
-                    Log.wtf("Hulk-65", LDSADMDDKSALDLADKASLDASKLDKDOKDOIEIOIEMMVVMCKVMCKXVMKVMCKVMCKVMKCVCKVCKVMCKVMCVKCMVKCMVKVMKCMVKMFKMDKFMDKFMEDKRMEKRE.getMessage());
+                    wtf("Hulk-65", LDSADMDDKSALDLADKASLDASKLDKDOKDOIEIOIEMMVVMCKVMCKXVMKVMCKVMCKVMKCVCKVCKVMCKVMCVKCMVKCMVKVMKCMVKMFKMDKFMDKFMEDKRMEKRE.getMessage());
                 }
 
 
@@ -55,39 +56,24 @@ public class Rates {
         }
 
         private void nnnnndashjbhj(Document kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb) {
-            Elements uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui = kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb.getElementById(JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98.getResources().getString(R.string.jknljnjnk)).getElementsByClass("tableDataBox");
+            Elements uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui = kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb.getElementsByClass(JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98.getResources().getString(R.string.jknljnjnk)).select("tbody").select("tr");
             int i = 0;
             try {
                 do {
-                    KJLSDAKLSDKJLKDJLSKDJASNKDJKJN.add(new RatesReq("" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.select("ol").select("li").select("a").get(i).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.select("ol").select("li").select("strong").get(i).text(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.select("ol").select("li").next().get(i).ownText(),
-                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.select("ol").select("li").select("span").get(i).text()
+                    KJLSDAKLSDKJLKDJLSKDJASNKDJKJN.add(new RatesReq("" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(0).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(1).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(2).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(3).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(4).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(5).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(6).text(),
+                            "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(7).text()
                     ));
                     i++;
                 }
                 while (i != -1);
             } catch (Exception e) {
 //                    Log.wtf("Hulk-57", e.getMessage());
-                i = -1;
-
-            }
-        }
-
-        private void mmmmmsdkjfjkdfsjdsdsj(Document pageDocument) {
-            Elements UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG = pageDocument.getElementById(JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98.getResources().getString(R.string.mmmadjja)).getElementsByClass(JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98.getResources().getString(R.string.HJBHJBHJBJHBHJBHJBHJS));
-            int i = 0;
-            try {
-                do {
-                    KOJKOJKOJKJOKLJKLJKLJ.add(new RatesReq("" + UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG.select("ol").select("li").select("a").get(i).text(),
-                            "" + UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG.select("ol").select("li").select("strong").get(i).text(),
-                            "" + UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG.select("ol").select("li").next().get(i).ownText(),
-                            "" + UUUUUUUUDCHUSBCHJSBFBWFHBFHEBFHJBHBVFEHJVBFEHJGBGBHGRBG.select("ol").select("li").select("span").get(i).text()
-                    ));
-                    i++;
-                }
-                while (i != -1);
-            } catch (Exception e) {
                 i = -1;
 
             }
@@ -103,14 +89,11 @@ public class Rates {
 
     }
 
-    static Context JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98 = null;
+    public static Context JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98 = null;
     static ArrayList<RatesReq> KJLSDAKLSDKJLKDJLSKDJASNKDJKJN = new ArrayList<>();
-    static ArrayList<RatesReq> KOJKOJKOJKJOKLJKLJKLJ = new ArrayList<>();
 
     public interface NCDEXrates {
         public void NcdexRates(ArrayList<RatesReq> list);
-
-        public void McxRates(ArrayList<RatesReq> list);
 
         public void FailedToLoad(String error);
     }

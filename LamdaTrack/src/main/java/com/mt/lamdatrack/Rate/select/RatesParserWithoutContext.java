@@ -58,42 +58,42 @@ public class RatesParserWithoutContext {
 
         private void mmmmmsdkjfjkdfsjdsdsj(Document iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii9989) {
             Elements ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776 = iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii9989.getElementById("mcx").getElementsByClass("tableDataBox");
-            int i = 0;
-            try {
-                do {
-                    pppppppppppppppppppppppppppppppppppppppppppp0000000000000000000000000000000000000000000000000000000000000000000000000000000.add(new RatesReq("" + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776.select("ol").select("li").select("a").get(i).text(),
-                            "" + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776.select("ol").select("li").select("strong").get(i).text(),
-                            "" + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776.select("ol").select("li").next().get(i).ownText(),
-                            "" + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776.select("ol").select("li").select("span").get(i).text()
-                    ));
-                    i++;
-                }
-                while (i != -1);
-            } catch (Exception e) {
-//                    Log.wtf("Hulk-57", e.getMessage());
-                i = -1;
-
-            }
+//            int i = 0;
+//            try {
+//                do {
+//                    pppppppppppppppppppppppppppppppppppppppppppp0000000000000000000000000000000000000000000000000000000000000000000000000000000.add(new RatesReq("" + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776.select("ol").select("li").select("a").get(i).text(),
+//                            "" + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776.select("ol").select("li").select("strong").get(i).text(),
+//                            "" + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776.select("ol").select("li").next().get(i).ownText(),
+//                            "" + ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo77776.select("ol").select("li").select("span").get(i).text()
+//                    ));
+//                    i++;
+//                }
+//                while (i != -1);
+//            } catch (Exception e) {
+////                    Log.wtf("Hulk-57", e.getMessage());
+//                i = -1;
+//
+//            }
         }
 
 
         private void nnnnndashjbhj(Document kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd121212) {
             Elements tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567 = kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd121212.getElementById("ncdex").getElementsByClass("tableDataBox");
-            int i = 0;
-            try {
-                do {
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa556.add(new RatesReq("" + tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567.select("ol").select("li").select("a").get(i).text(),
-                            "" + tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567.select("ol").select("li").select("strong").get(i).text(),
-                            "" + tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567.select("ol").select("li").next().get(i).ownText(),
-                            "" + tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567.select("ol").select("li").select("span").get(i).text()
-                    ));
-                    i++;
-                }
-                while (i != -1);
-            } catch (Exception e) {
-                i = -1;
-
-            }
+//            int i = 0;
+//            try {
+//                do {
+//                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa556.add(new RatesReq("" + tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567.select("ol").select("li").select("a").get(i).text(),
+//                            "" + tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567.select("ol").select("li").select("strong").get(i).text(),
+//                            "" + tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567.select("ol").select("li").next().get(i).ownText(),
+//                            "" + tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt43567.select("ol").select("li").select("span").get(i).text()
+//                    ));
+//                    i++;
+//                }
+//                while (i != -1);
+//            } catch (Exception e) {
+//                i = -1;
+//
+//            }
         }
 
         @SuppressLint("RestrictedApi")
