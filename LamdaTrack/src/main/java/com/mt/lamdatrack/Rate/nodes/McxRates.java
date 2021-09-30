@@ -58,7 +58,7 @@ public class McxRates {
             int i = 0;
             try {
                 do {
-                    if (i != 7) {
+                    if (!uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(0).text().isEmpty()) {
                         OJKIMNJKNMJANJANJAN.add(new RatesReq("" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(0).text(),
                                 "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(1).text(),
                                 "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(2).text(),
@@ -73,7 +73,6 @@ public class McxRates {
                 }
                 while (i != -1);
             } catch (Exception e) {
-//                    Log.wtf("Hulk-57", e.getMessage());
                 i = -1;
 
             }

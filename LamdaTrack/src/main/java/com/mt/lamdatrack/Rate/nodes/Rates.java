@@ -60,7 +60,7 @@ public class Rates {
             int i = 0;
             try {
                 do {
-                    if (i != 5) {
+                    if (!uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(0).text().isEmpty()) {
                         KJLSDAKLSDKJLKDJLSKDJASNKDJKJN.add(new RatesReq("" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(0).text(),
                                 "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(1).text(),
                                 "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.get(i).select("td").get(2).text(),
@@ -75,7 +75,6 @@ public class Rates {
                 }
                 while (i != -1);
             } catch (Exception e) {
-//                    Log.wtf("Hulk-57", e.getMessage());
                 i = -1;
 
             }

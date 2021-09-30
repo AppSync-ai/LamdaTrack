@@ -30,13 +30,13 @@ public class MainActivity extends AppCompatActivity implements Rates.NCDEXrates,
 
     @Override
     public void NcdexRates(ArrayList<RatesReq> list) {
-        Log.wtf("Hulk-32", "" + list.size());
+        Log.wtf("Hulk-32", "NCDEX : " + list.size());
     }
 
 
     @Override
     public void McxRates(ArrayList<RatesReq> list) {
-        Log.wtf("Hulk-39", "" + list.size());
+        Log.wtf("Hulk-39", "MCX : " + list.size());
     }
 
     @Override
