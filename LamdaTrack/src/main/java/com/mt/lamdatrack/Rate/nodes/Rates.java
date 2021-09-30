@@ -55,7 +55,7 @@ public class Rates {
             return null;
         }
 
-        private void nnnnndashjbhj(Document kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb) {
+        private void nnnnndashjbhj(Document kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb) { 
             Elements uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui = kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb.getElementsByClass(JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98.getResources().getString(R.string.jknljnjnk)).select("tbody").select("tr");
             int i = 0;
             try {
