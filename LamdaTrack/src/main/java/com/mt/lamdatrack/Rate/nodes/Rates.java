@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 import static android.util.Log.*;
 import static android.util.Log.wtf;
+import static com.mt.lamdatrack.Rate.nodes.Admin.getLineNumber;
 
 public class Rates {
 
@@ -36,6 +37,7 @@ public class Rates {
 
                 JNOSDAJNSADJNSDAJNKSDA = UHUnbnnbsd.sdfdssd(JNOSDAJNSADJNSDAJNKSDA, JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98);
 
+                wtf("Hulk-" + getClass().getSimpleName() + "-" + getLineNumber(), "function called");
                 nnnnndashjbhj(JNOSDAJNSADJNSDAJNKSDA);
 
                 try {
@@ -55,8 +57,11 @@ public class Rates {
             return null;
         }
 
-        private void nnnnndashjbhj(Document kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb) { 
+        private void nnnnndashjbhj(Document kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb) {
             Elements uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui = kkkkkskdsdsdsdewdefejnvnvnvnvnvbgb.getElementsByClass(JISJFIOSJFIOSFJISFJSIFJSIFJSIFSJFIOSJFISJFSIOFJSIOFJSIOFJSIOFJSIOFJIOJFEIUOWNRFJEWNRFJEN43JRTN43URT438795RY4389RU3JKFDISDMCKLSDNFUIR3HF8ERJF980REJF89ERHUF8U9ERHFGE78RFJHE89RFJEW980FJ3R98.getResources().getString(R.string.jknljnjnk)).select("tbody").select("tr");
+
+            wtf("Hulk-" + getClass().getSimpleName() + "-" + getLineNumber(), "" + uiojjouijiosfjosfjosjfksjfiosfjskofjsofjsjfhyuirehgyfrnui.toString());
+
             int i = 0;
             try {
                 do {
